@@ -42,13 +42,10 @@ export default function Hero() {
             className="relative order-1 md:order-2 px-4 md:px-0"
           >
             <div className="relative z-10 rounded-3xl overflow-hidden border-2 border-primary/20 shadow-2xl shadow-primary/10 floating max-w-[450px] mx-auto md:max-w-none">
-              <Image 
+              <img 
                 src="/hero-image.png" 
                 alt="Amira Mohamed" 
-                width={600} 
-                height={700} 
                 className="w-full object-cover aspect-[4/5] md:aspect-auto"
-                priority
               />
             </div>
             {/* Decorative elements - Hidden on small mobile */}
