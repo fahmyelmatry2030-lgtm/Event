@@ -43,7 +43,7 @@ export default function Hero() {
           >
             <div className="relative z-10 rounded-3xl overflow-hidden border-2 border-primary/20 shadow-2xl shadow-primary/10 floating max-w-[450px] mx-auto md:max-w-none">
               <Image 
-                src="/hero.png" 
+                src="/hero-image.png" 
                 alt="Amira Mohamed" 
                 width={600} 
                 height={700} 
