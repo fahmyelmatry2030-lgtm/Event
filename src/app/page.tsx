@@ -1,7 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
-import dynamic from 'next/dynamic';
-const About = dynamic(() => import('@/components/About'), { ssr: false });
+import About from '@/components/About';
 import Topics from '@/components/Topics';
 import NoFees from '@/components/NoFees';
 import BookingForm from '@/components/BookingForm';

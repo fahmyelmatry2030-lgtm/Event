@@ -1,14 +1,15 @@
-"use client";
+"use client"
 
 import { motion } from 'framer-motion';
 import { Award, TrendingUp, Users, ShieldCheck } from 'lucide-react';
+const stats = [
+  { icon: TrendingUp, value: '+5 سنوات', label: 'خبرة في الأسواق' },
+  { icon: Users, value: '+10,000', label: 'متدرب' },
+  { icon: Award, value: 'معتمدة', label: 'محللة مالية' },
+  { icon: ShieldCheck, value: '100%', label: 'تداول آمن' },
+];
+
 export default function About() {
-  const stats = [
-    { icon: <TrendingUp className="text-primary" size={24} />, value: '+5 سنوات', label: 'خبرة في الأسواق' },
-    { icon: <Users className="text-primary" size={24} />, value: '+10,000', label: 'متدرب' },
-    { icon: <Award className="text-primary" size={24} />, value: 'معتمدة', label: 'محللة مالية' },
-    { icon: <ShieldCheck className="text-primary" size={24} />, value: '100%', label: 'تداول آمن' },
-  ];
 
   return (
     <section id="about" className="py-24 relative overflow-hidden bg-slate-900/20">
@@ -42,7 +43,7 @@ export default function About() {
               <div className="grid grid-cols-2 gap-4 md:gap-6">
                 {stats.slice(0, 2).map((stat, idx) => (
                   <div key={idx} className="text-center">
-                    <div className="flex justify-center mb-2">{stat.icon}</div>
+                    <div className="flex justify-center mb-2"><stat.icon className="text-primary" size={24} /></div>
                     <div className="font-bold text-xl text-white">{stat.value}</div>
                     <div className="text-xs text-slate-400">{stat.label}</div>
                   </div>
