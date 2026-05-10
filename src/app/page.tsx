@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
+import About from '@/components/About';
 import Topics from '@/components/Topics';
 import NoFees from '@/components/NoFees';
 import BookingForm from '@/components/BookingForm';
@@ -10,6 +11,7 @@ export default function Home() {
     <main className="min-h-screen bg-background">
       <Navbar />
       <Hero />
+      <About />
       <Topics />
       
       {/* Date & Location Info Section */}
