@@ -1,7 +1,7 @@
-import Image from 'next/image';
+"use client";
+
 import { motion } from 'framer-motion';
 import { Award, TrendingUp, Users, ShieldCheck } from 'lucide-react';
-
 export default function About() {
   const stats = [
     { icon: <TrendingUp className="text-primary" size={24} />, value: '+5 سنوات', label: 'خبرة في الأسواق' },
