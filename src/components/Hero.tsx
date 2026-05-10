@@ -43,7 +43,7 @@ export default function Hero() {
           >
             <div className="relative z-10 rounded-3xl overflow-hidden border-2 border-primary/20 shadow-2xl shadow-primary/10 floating max-w-[450px] mx-auto md:max-w-none">
               <img 
-                src="/hero-image.png" 
+                src="/amira.png" 
                 alt="Amira Mohamed" 
                 className="w-full object-cover aspect-[4/5] md:aspect-auto"
               />
